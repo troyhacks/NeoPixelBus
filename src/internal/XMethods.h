@@ -27,7 +27,7 @@ License along with NeoPixel.  If not, see
 #pragma once
 
 
-#if defined(ARDUINO_ARCH_ESP32) && !defined(CONFIG_IDF_TARGET_ESP32C6) && !defined(CONFIG_IDF_TARGET_ESP32H2)
+#if defined(ARDUINO_ARCH_ESP32) && !defined(CONFIG_IDF_TARGET_ESP32C6) && !defined(CONFIG_IDF_TARGET_ESP32H2) && !defined(CONFIG_IDF_TARGET_ESP32P4)
 //----------------------------------------------------------
 
 #if defined(CONFIG_IDF_TARGET_ESP32S3)

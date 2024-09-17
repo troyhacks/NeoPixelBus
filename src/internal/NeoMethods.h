@@ -57,7 +57,7 @@ License along with NeoPixel.  If not, see
 
 #elif defined(ARDUINO_ARCH_ESP32)
 
-#if !defined(CONFIG_IDF_TARGET_ESP32C6) && !defined(CONFIG_IDF_TARGET_ESP32H2)
+#if !defined(CONFIG_IDF_TARGET_ESP32C6) && !defined(CONFIG_IDF_TARGET_ESP32H2) && !defined(CONFIG_IDF_TARGET_ESP32P4)
 #include "methods/NeoEsp32I2sMethod.h"
 #include "methods/NeoEsp32RmtMethod.h"
 #include "methods/DotStarEsp32DmaSpiMethod.h"
