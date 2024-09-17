@@ -33,7 +33,7 @@ License along with NeoPixel.  If not, see
 #endif
 #if defined(CONFIG_IDF_TARGET_ESP32C3)
 #define CYCLES_LOOPTEST   (1) // adjustment due to loop exit test instruction cycles
-#elif defined(CONFIG_IDF_TARGET_ESP32S3)
+#elif defined(CONFIG_IDF_TARGET_ESP32S3) || defined(CONFIG_IDF_TARGET_ESP32P4)
 #define CYCLES_LOOPTEST   (2) // adjustment due to loop exit test instruction cycles
 #else
 #define CYCLES_LOOPTEST   (4) // adjustment due to loop exit test instruction cycles
